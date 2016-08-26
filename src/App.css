@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  /*background-color: #222;*/
+  /*height: 150px;*/
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.grid_1 {
+  width: 80px;
+}
+.grid_2 {
+  width: 170px;
+}
+.grid_3 {
+  width: 260px;
+}
+.grid_4 {
+  width: 350px;
+}
+.grid_5 {
+  width: 440px;
+}
+.grid_6 {
+  width: 530px;
+}
+.grid_7 {
+  width: 620px;
+}
+.grid_8 {
+  width: 710px;
+}
+.grid_9 {
+  width: 800px;
+}
+.grid_10 {
+  width: 890px;
+}
+.grid_11 {
+  width: 980px;
+}
+.grid_12 {
+  width: 1070px;
+}
+.column {
+  margin: 5px;
+  overflow: hidden;
+  float: left;
+  display: inline;
+}
+.row {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.row .row {
+  margin: 0 -5px;
+  width: auto;
+  display: inline-block;
+}
+
+.user_image{
+  width: 100%;
+  background-color: #F0F0F0;
+  min-height: 260px;
+}
+
+.user_name{
+  font-size: 18px;
+}
+
+.user_card{
+  position: relative;
+  border: 1px solid #F2F1F0;
+  padding: 5px;
+  text-align: left;
+  border-radius: 5px;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.user_card:hover{
+  border: 1px solid #2085EC;
+}
+
+.user_card a:link,.user_card a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+.delete_user{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+ul.sort_by {
+  list-style-type: none;
+  margin: 10px 0 30px 0;
+  padding: 0;
+  text-align: left;
+}
+
+ul.sort_by li {
+  display: inline;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+ul.sort_by li:hover:not(:first-child){
+  color: #2085EC;
+  cursor: pointer;
+}
+
+.active{
+  color: #2085EC;
+}
+
+.left_align{
+  text-align: left;
+}
+
+.hr_line{
+  height: 1px;
+  background-color: #CCCCCC;
+  margin: 10px 0;
+}
+
+.add_button{
+  background-color: #3072AB;
+  color: white;
+  margin-left: 5px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.input_name{
+  line-height: 20px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #CCCCCC;
+}
